@@ -63,10 +63,9 @@ export function Sidebar({ currentTab, onTabChange, deployWindow, onDeployWindow 
                     />
                 ) : (
                     <>
-                        {/* <PlaygroundButton currentTab={currentTab} onTabChange={onTabChange} /> */}
                         <SidebarButton
                             icon={<SquareTerminal className="size-5" />}
-                            label="Ai Studio"
+                            label="AI Studio"
                             isActive={currentTab === TabValue.AiStudio}
                             onClick={() => onTabChange(TabValue.AiStudio)}
                             isSmallScreen={isSmallScreen}
@@ -109,7 +108,7 @@ export function Sidebar({ currentTab, onTabChange, deployWindow, onDeployWindow 
                     </>
                 )}
             </nav>
-
         </aside>
     )
 }
+
