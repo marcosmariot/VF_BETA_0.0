@@ -19,8 +19,8 @@ import {
 
 const sidebarItems = [
   {
-    title: 'Dashboard',
-    href: '/dashboard',
+    title: 'Comece a Criar',
+    href: '/dashboard/studio',
     icon: LayoutDashboard,
   },
   {

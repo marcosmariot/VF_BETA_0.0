@@ -27,7 +27,7 @@ export default function ComoFuncionaPage() {
             </Link>
             <Link href="/dashboard">
               <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
-                Demo Dashboard
+                Comece a Criar
               </Button>
             </Link>
           </div>
@@ -224,11 +224,7 @@ export default function ComoFuncionaPage() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="/dashboard">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-6">
-                Experimentar Demo
-              </Button>
-            </Link>
+            <Link href="/dashboard/studio">
             <Link href="/">
               <Button size="lg" variant="outline" className="border-gray-700 text-gray-300 hover:bg-gray-800 text-lg px-8 py-6">
                 Voltar ao Início
