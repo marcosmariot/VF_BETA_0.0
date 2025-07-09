@@ -34,10 +34,10 @@ export function TopNav() {
                 <Button
                     variant="outline"
                     size="sm"
-                    className="gap-1.5 text-sm"
+                    className="gap-1.5 text-sm text-white hover:text-white"
                     asChild
                 >
-                    <Link href="https://github.com/ViewComfy/ViewComfy" target="_blank" rel="noopener noreferrer">
+                    <Link href="/ai-studio" className="text-white hover:text-white">
                         <svg
                             aria-hidden="true"
                             className="octicon octicon-mark-github"
@@ -57,10 +57,10 @@ export function TopNav() {
                 <Button
                     variant="outline"
                     size="sm"
-                    className="text-sm"
+                    className="text-sm text-white hover:text-white"
                     asChild
                 >
-                    <Link href="https://discord.gg/DXubrz5R7E" target="_blank" rel="noopener noreferrer" >
+                    <Link href="/ai-studio" className="text-white hover:text-white">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             x="0px"

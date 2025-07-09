@@ -13,7 +13,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DeployDialog } from "@/components/deploy/deploy-dialog";
 
-export default function AppContent() {
+export function AppContent() {
     const [currentTab, setCurrentTab] = useState(TabValue.AiStudio);
     const [deployWindow, setDeployWindow] = useState<boolean>(false);
 
