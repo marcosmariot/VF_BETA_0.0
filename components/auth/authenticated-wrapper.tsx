@@ -2,7 +2,7 @@
 import { useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import AppContent from "@/components/app-content";
+import { AppContent } from "@/components/app-content";
 
 export default function AuthenticatedWrapper() {
     const router = useRouter();
