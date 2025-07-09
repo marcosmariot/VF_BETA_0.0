@@ -12,7 +12,9 @@ interface TranslationContextType {
 
 const translations = {
   'pt-BR': {
-    'header.create': 'Comece a Criar',
+    // Header
+    'header.signup': 'Cadastre-se',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Criação de Moda com Inteligência Artificial',
@@ -86,7 +88,7 @@ const translations = {
   'en-US': {
     // Header
     'header.signup': 'Sign Up',
-    'header.create': 'Get Started',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Fashion Creation with Artificial Intelligence',
@@ -159,8 +161,8 @@ const translations = {
   
   'es-ES': {
     // Header
-    'header.signup': 'Cadastre-se',
-    'header.create': 'Comece a Criar',
+    'header.signup': 'Registrarse',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Creación de Moda con Inteligencia Artificial',

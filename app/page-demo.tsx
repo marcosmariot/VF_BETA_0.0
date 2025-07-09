@@ -23,9 +23,9 @@ export default function HomePage() {
             <Button variant="ghost" className="text-gray-300 hover:text-white">
               Entrar
             </Button>
-            <Link href="/dashboard/studio">
+            <Link href="/dashboard">
               <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
-                Comece a Criar
+                Demo Dashboard
               </Button>
             </Link>
           </div>
@@ -54,7 +54,7 @@ export default function HomePage() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link href="/dashboard/studio">
+            <Link href="/dashboard">
               <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-6">
                 Ver Demo
                 <ArrowRight className="ml-2 w-5 h-5" />
