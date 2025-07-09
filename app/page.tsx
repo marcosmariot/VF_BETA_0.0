@@ -63,11 +63,7 @@ export default function HomePage() {
               <UserButton afterSignOutUrl="/" />
             </SignedIn>
             
-            <Link href="/dashboard">
-              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
-                {t('header.demo')}
-              </Button>
-            </Link>
+            <Link href="/ai-studio">
           </div>
         </div>
       </header>
@@ -94,7 +90,7 @@ export default function HomePage() {
             </SignedOut>
             
             <SignedIn>
-              <Link href="/dashboard">
+              <Link href="/ai-studio">
                 <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-lg px-8 py-6">
                   {t('home.cta.start')}
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -266,9 +262,9 @@ export default function HomePage() {
           </SignedOut>
           
           <SignedIn>
-            <Link href="/dashboard">
+            <Link href="/ai-studio">
               <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-lg px-8 py-6">
-                Acessar Dashboard
+                Acessar IA Studio
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
