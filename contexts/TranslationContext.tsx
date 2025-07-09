@@ -14,7 +14,7 @@ const translations = {
   'pt-BR': {
     // Header
     'header.signup': 'Cadastre-se',
-    'header.demo': 'Comece a Criar',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Criação de Moda com Inteligência Artificial',
@@ -88,7 +88,7 @@ const translations = {
   'en-US': {
     // Header
     'header.signup': 'Sign Up',
-    'header.demo': 'Comece a Criar',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Fashion Creation with Artificial Intelligence',
@@ -162,7 +162,7 @@ const translations = {
   'es-ES': {
     // Header
     'header.signup': 'Registrarse',
-    'header.demo': 'Comece a Criar',
+    'header.demo': 'Demo Dashboard',
     
     // Homepage
     'home.title': 'Creación de Moda con Inteligencia Artificial',
