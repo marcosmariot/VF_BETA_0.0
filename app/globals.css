@@ -203,3 +203,118 @@
   }
 }
 
+
+/* Estilos para o Clerk - Tema Claro e Escuro */
+.cl-rootBox {
+  color: inherit !important;
+}
+
+.cl-card {
+  background-color: hsl(var(--background)) !important;
+  color: hsl(var(--foreground)) !important;
+  border: 1px solid hsl(var(--border)) !important;
+}
+
+.cl-headerTitle,
+.cl-headerSubtitle,
+.cl-socialButtonsBlockButton__text,
+.cl-formFieldLabel,
+.cl-formFieldInput,
+.cl-footerActionText,
+.cl-footerActionLink,
+.cl-dividerText,
+.cl-alternativeMethodsBlockButton__text {
+  color: hsl(var(--foreground)) !important;
+}
+
+.cl-formFieldInput {
+  background-color: hsl(var(--background)) !important;
+  border: 1px solid hsl(var(--border)) !important;
+}
+
+.cl-formFieldInput:focus {
+  border-color: hsl(var(--ring)) !important;
+  box-shadow: 0 0 0 2px hsl(var(--ring) / 0.2) !important;
+}
+
+.cl-socialButtonsBlockButton {
+  background-color: hsl(var(--secondary)) !important;
+  border: 1px solid hsl(var(--border)) !important;
+  color: hsl(var(--foreground)) !important;
+}
+
+.cl-socialButtonsBlockButton:hover {
+  background-color: hsl(var(--secondary) / 0.8) !important;
+}
+
+.cl-button {
+  background-color: hsl(var(--primary)) !important;
+  color: hsl(var(--primary-foreground)) !important;
+}
+
+.cl-button:hover {
+  background-color: hsl(var(--primary) / 0.9) !important;
+}
+
+.cl-dividerLine {
+  background-color: hsl(var(--border)) !important;
+}
+
+.cl-footerActionLink {
+  color: hsl(var(--primary)) !important;
+}
+
+.cl-footerActionLink:hover {
+  color: hsl(var(--primary) / 0.8) !important;
+}
+
+/* Tema escuro específico */
+.dark .cl-card {
+  background-color: rgba(17, 24, 39, 0.95) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(55, 65, 81, 0.8) !important;
+}
+
+.dark .cl-headerTitle,
+.dark .cl-headerSubtitle,
+.dark .cl-socialButtonsBlockButton__text,
+.dark .cl-formFieldLabel,
+.dark .cl-formFieldInput,
+.dark .cl-footerActionText,
+.dark .cl-footerActionLink,
+.dark .cl-dividerText,
+.dark .cl-alternativeMethodsBlockButton__text {
+  color: #ffffff !important;
+}
+
+.dark .cl-formFieldInput {
+  background-color: rgba(17, 24, 39, 0.8) !important;
+  border: 1px solid rgba(55, 65, 81, 0.8) !important;
+  color: #ffffff !important;
+}
+
+/* Tema claro específico */
+.light .cl-card {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.light .cl-headerTitle,
+.light .cl-headerSubtitle,
+.light .cl-socialButtonsBlockButton__text,
+.light .cl-formFieldLabel,
+.light .cl-formFieldInput,
+.light .cl-footerActionText,
+.light .cl-footerActionLink,
+.light .cl-dividerText,
+.light .cl-alternativeMethodsBlockButton__text {
+  color: #1f2937 !important;
+}
+
+.light .cl-formFieldInput {
+  background-color: #ffffff !important;
+  border: 1px solid #d1d5db !important;
+  color: #1f2937 !important;
+}
+

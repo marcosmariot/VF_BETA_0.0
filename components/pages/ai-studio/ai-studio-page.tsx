@@ -123,7 +123,7 @@ function CreationPanel({
           <CardTitle>Preview do Resultado</CardTitle>
         </CardHeader>
         <CardContent className="flex items-center justify-center h-64 bg-gray-100 rounded-md">
-          <p className="text-gray-500">Sua imagem gerada aparecerá aqui.</p>
+          <p className="text-gray-700">Sua imagem gerada aparecerá aqui.</p>
         </CardContent>
       </Card>
     </div>
@@ -235,7 +235,7 @@ export default function AiStudioPage() {
             <CardContent>
               <div className="flex items-center justify-center h-32 bg-gray-100 rounded-md">
                 <History className="size-8 text-gray-400" />
-                <p className="ml-2 text-gray-500">Seu histórico de criações aparecerá aqui.</p>
+                <p className="ml-2 text-gray-700">Seu histórico de criações aparecerá aqui.</p>
               </div>
             </CardContent>
           </Card>
@@ -246,7 +246,7 @@ export default function AiStudioPage() {
             <CardContent>
               <div className="flex items-center justify-center h-32 bg-gray-100 rounded-md">
                 <BookOpen className="size-8 text-gray-400" />
-                <p className="ml-2 text-gray-500">Tutoriais relevantes para esta sessão.</p>
+                <p className="ml-2 text-gray-700">Tutoriais relevantes para esta sessão.</p>
               </div>
             </CardContent>
           </Card>

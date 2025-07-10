@@ -64,8 +64,8 @@ export default function HomePage() {
             </SignedIn>
             
             <Link href="/ai-studio">
-              <Button variant="ghost" className={buttonClasses}>
-                {t('header.dashboard')}
+              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
+                Comece a Criar
               </Button>
             </Link>
           </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
             </SignedIn>
             
             <Link href="/como-funciona">
-              <Button size="lg" variant="outline" className={`${theme === 'light' ? 'border-gray-300 text-gray-700 hover:bg-gray-50' : 'border-gray-700 text-gray-300 hover:bg-gray-800'} text-lg px-8 py-6`}>
+              <Button size="lg" variant="outline" className="border-gray-300 text-white hover:bg-gray-50 hover:text-gray-900 text-lg px-8 py-6">
                 {t('home.cta.learn')}
               </Button>
             </Link>
